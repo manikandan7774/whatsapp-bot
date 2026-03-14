@@ -1,0 +1,29 @@
+{
+    "customerId": "gym_a",
+    "documents": [
+        {
+            "content": "Iron Fitness Gym membership price is ₹999 per month. Annual membership is available at ₹9,999.",
+            "metadata": {
+                "category": "pricing"
+            }
+        },
+        {
+            "content": "Iron Fitness Gym timing is 5AM to 10PM, Monday to Saturday. Sunday is closed.",
+            "metadata": {
+                "category": "timings"
+            }
+        },
+        {
+            "content": "Iron Fitness Gym offers full body workouts, cardio sessions, and strength training. Membership includes free diet consultation.",
+            "metadata": {
+                "category": "services"
+            }
+        },
+        {
+            "content": "Iron Fitness Gym tips: Stay hydrated, train 5 times per week, rest on Sundays. Warm up before every session.",
+            "metadata": {
+                "category": "tips"
+            }
+        }
+    ]
+}

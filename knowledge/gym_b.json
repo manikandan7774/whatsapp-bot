@@ -1,0 +1,29 @@
+{
+    "customerId": "gym_b",
+    "documents": [
+        {
+            "content": "Powerhouse Gym membership price is ₹1299 per month. Quarterly plan available at ₹3,499.",
+            "metadata": {
+                "category": "pricing"
+            }
+        },
+        {
+            "content": "Powerhouse Gym timing is 6AM to 11PM, all 7 days of the week.",
+            "metadata": {
+                "category": "timings"
+            }
+        },
+        {
+            "content": "Powerhouse Gym focuses on bodybuilding, HIIT, and functional training. Membership includes personal trainer sessions.",
+            "metadata": {
+                "category": "services"
+            }
+        },
+        {
+            "content": "Powerhouse Gym tips: High-protein diet, track your progress, maintain consistency, and get 8 hours of sleep.",
+            "metadata": {
+                "category": "tips"
+            }
+        }
+    ]
+}
