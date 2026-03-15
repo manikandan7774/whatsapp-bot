@@ -1,0 +1,17 @@
+{
+    "customerId": "mani",
+    "documents": [
+        {
+            "content": "Mani is a software developer and the creator of this bot.",
+            "metadata": {
+                "category": "personal"
+            }
+        },
+        {
+            "content": "Mani enjoys coding, AI, and building cool projects.",
+            "metadata": {
+                "category": "personal"
+            }
+        }
+    ]
+}

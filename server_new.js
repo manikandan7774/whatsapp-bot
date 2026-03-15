@@ -71,9 +71,10 @@ app.post("/webhook", async (req, res) => {
     // RAG retrieval
     const docs = await retrieveDocs(customer.id, text);
 
-    const systemPrompt = `You are a helpful assistant for ${customer.name}.
-Answer questions based ONLY on the following knowledge. If the answer is not in the knowledge, politely say you don't have that information.
-Be concise, friendly, and professional.
+    // Determine prompt based on whether customer has a custom one
+    const basePrompt = customer.systemPrompt || `You are a helpful assistant for ${customer.name}.\nBe concise, friendly, and professional.\nAnswer questions based ONLY on the following knowledge. If the answer is not in the knowledge, politely say you don't have that information.`;
+
+    const systemPrompt = `${basePrompt}
 
 Knowledge:
 ${docs.join("\n")}`;

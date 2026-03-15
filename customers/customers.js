@@ -1,4 +1,13 @@
+import dotenv from "dotenv";
+dotenv.config();
+
 export const customers = [
+    {
+        id: "mani",
+        name: "Mani",
+        phoneNumber: process.env.PHONE_NUMBER_ID,
+        systemPrompt: "You are Mani's friendly WhatsApp assistant. Reply casually, be funny sometimes, and help people who message Mani. You are Mani's AI assistant similar to JARVIS. Be smart, helpful and slightly humorous."
+    },
     {
         id: "gym_a",
         name: "Iron Fitness Gym",
