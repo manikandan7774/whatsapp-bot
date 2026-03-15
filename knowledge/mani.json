@@ -12,6 +12,18 @@
             "metadata": {
                 "category": "personal"
             }
+        },
+        {
+            "content": "Mani's weekday schedule: 7 AM to 8 AM Gym, 9 AM to 7 PM Office, 7 PM to 10 PM Dinner or hanging out with friends, 10 PM to 6 AM Sleep.",
+            "metadata": {
+                "category": "schedule"
+            }
+        },
+        {
+            "content": "Mani's weekend schedule: Sleeping in the morning, eating, coding, and hanging out with friends.",
+            "metadata": {
+                "category": "schedule"
+            }
         }
     ]
 }
